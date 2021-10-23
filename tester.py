@@ -1,6 +1,15 @@
 chi = [1,2,3,4,5]
 
-for i in chi:
-    new = 1 + i
+def apples():
+    for i in chi:
+        new = i + 1
+    print(new)
 
-print(new)
+def oky():
+    print('I am testing my commits')
+
+
+print(oky)    
+print(apples)
+
+print("Hapiness is the key to good health")
